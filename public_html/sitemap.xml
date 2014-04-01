@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<urlset xmlns="http://w.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost/responsive/index.html</loc>
+        <loc>http://localhost/responsive/acerca.html</loc>
+        <loc>http://localhost/responsive/servicios.html</loc>
+        <loc>http://localhost/responsive/trabajos.html</loc>
+        <loc>http://localhost/responsive/contacto.html</loc>
+    </url>
+</urlset>

@@ -1,0 +1,16 @@
+/* bextlan.com | lugar de... bits, vectores y píxeles. - http:// bextlan.com*/
+
+/* IN MEMORIAL */
+    Bryan
+
+/* THANX */
+    Belem, Letty, Leon, O
+    Junior, Camila, Lorenzo, Mojo
+    ICONOS http://www.iconos.edu.mx
+
+/* SITE */
+    Last update: 2012/02/08
+    Language: Español
+    Standards: HTML5, CSS3, JavaScript
+    Components: jQuery
+    Software: Netbeans 7.3.1
