@@ -11,10 +11,18 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico"/>
         <link rel="author" type="tex/plain" href="/about/humans.txt"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/flexslider.css"/>
         <link rel="stylesheet" type="text/css" media="all" href="css/estilos.css"/>
+        <script src="https:\\ajax.googleapis.com\ajax\libs\jquery\1.7.1\jquery.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
         <!--[]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
     </head>
     <body>
         <h1>Estructura Básica Semántica en HTML5 y CSS3</h1>
@@ -38,7 +46,26 @@ and open the template in the editor.
             <section id="principal">
                 Section
                 <article id="galeria-inicio">
-                    Aquí habrá una galería con jQuery...
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <a href="http://bextlan.com">
+                                    <img src="img/carrusel/slide-0.png" />
+                                </a>
+                                <p class="flex-caption">bextlan.com | lugar de bits, vectores y píxeles</p>
+                            </li>
+                            <li>
+                                <a href="http://flex.madebymufffin.com"><img src="img/carrusel/slide-1.png" /></a>
+                                <p class="flex-caption">Curso de HTML5</p>
+                            </li>
+                            <li>
+                                <img src="img/carrusel/slide-2.png" />
+                            </li>
+                            <li>
+                                <img src="img/carrusel/slide-3.png" />
+                            </li>
+                        </ul>
+                    </div>
                 </article>
             </section>
             <aside>
