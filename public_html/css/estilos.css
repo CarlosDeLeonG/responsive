@@ -65,6 +65,15 @@ figcaption {
     text-align: center;
 }
 
+h2 {
+    color: #F90;
+    font-family: "Pecita", Helvetica, Verdana;
+}
+
+hr {
+    border: 1px dashed #FFF;
+    margin: 1em 0;
+}
 img, video {
     max-width: 100%;
 }
@@ -155,6 +164,24 @@ aside img {
     border-radius: 0.5em;
 }
 
+article#descripcion-acerca, article#multimedia-acerca{
+    background: #1E6381;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 230px;
+    padding: 0.5em;
+    text-align: justify;
+    vertical-align: top;
+    width: 55%
+}
+
+article#multimedia-acerca{
+    text-align: center;
+    width: 40%;
+}
+
 footer {
     color: #000;
     font-size: 0.85em;
@@ -202,6 +229,9 @@ footer {
     aside {
         width: 20%;
     }
+    article#descripcion-acerca, article#multimedia-acerca{
+        width: 45%;
+    }
 }
 
 @media(max-width:800px){
@@ -220,10 +250,10 @@ footer {
         width: 98%;
         
     }
-    section#principal {
+    section#principal, article#descripcion-acerca {
         margin-bottom: 0.2em;
     }
-    section#principal, aside {
+    section#principal, aside, article#descripcion-acerca, article#multimedia-acerca {
         display: block;
         width: 95%;
     }
